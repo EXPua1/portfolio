@@ -8,15 +8,30 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
+    <header class="container">
+      <div class="header_main">
+        <div class="header_logo">
+          <img src="" alt="" />
+          <p>jefferson*</p>
+        </div>
+        <div class="menu_container">
+          <p id="menu_toggle">Menu</p>
+          <nav id="menu_list" class="hidden">
+            <ul class="list">
+              <li><a href="">About me</a></li>
+              <li>Benefits</li>
+              <li>Projects</li>
+              <li>FAQ</li>
+            </ul>
+          </nav>
+        </div>
 
-    <main>
-      <!-- Loads the specified .html file -->
-      <load src="./partials/vite-promo.html" />
-      <load src="./partials/badges.html" />
-    </main>
-
-    <load src="./partials/footer.html" />
+        <div>
+          <button>Order the project</button>
+        </div>
+      </div>
+    </header>
+    <main></main>
 
     <script type="module" src="main.js"></script>
   </body>
