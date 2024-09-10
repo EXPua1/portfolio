@@ -1,0 +1,16 @@
+.hero_section {
+  background: linear-gradient(
+    90deg,
+    #1c1d20 49.68%,
+    #69292d 67.73%,
+    #ed3b44 100%
+  );
+  transform: rotate(-180deg);
+  backdrop-filter: blur(4px); /* Применение размытия фона позади элемента */
+  -webkit-backdrop-filter: blur(4px); /* Для поддержки в Safari */
+  height: 100vh;
+  margin-top: -90px;
+  position: relative;
+  transform: rotate(180deg);
+  filter: blur(250px);
+}
